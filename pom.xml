@@ -16,6 +16,7 @@
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
     <!--SPRING-->
     <spring.version>5.3.20</spring.version>
+    <spring.data.redis.version>2.7.2</spring.data.redis.version>
     <!--WEB-->
     <apache.httpcomponents.version>4.5.13</apache.httpcomponents.version>
     <!--JACKSON-->
@@ -65,6 +66,11 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
       <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-redis</artifactId>
+      <version>${spring.data.redis.version}</version>
     </dependency>
     <!--WEB-->
     <dependency>
